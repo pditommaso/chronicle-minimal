@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin:'application'
+mainClassName = "com.company.Main"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	compile 'net.openhft:chronicle-map:1.0.2'
+}
+
+sourceSets.main.java.srcDirs = ['src']
+sourceSets.main.resources.srcDirs = ['src']
