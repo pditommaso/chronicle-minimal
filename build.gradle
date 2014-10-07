@@ -7,7 +7,7 @@ repositories {
 }
 
 dependencies {
-	compile 'net.openhft:chronicle-map:1.0.2'
+	compile 'net.openhft:chronicle-map:2.0.0.a'
 }
 
 sourceSets.main.java.srcDirs = ['src']

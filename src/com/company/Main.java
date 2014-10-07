@@ -15,9 +15,8 @@ public class Main {
 
         ChronicleMap map = ChronicleMapBuilder
                 .of(Integer.class, CharSequence.class)
-                .file(file)
                 .entries(4000000)
-                .create();
+                .create(file);
 
         map.put(1, "Hello");
 
