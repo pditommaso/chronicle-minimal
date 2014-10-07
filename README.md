@@ -1,4 +1,4 @@
-Chronicle Minimale 
+Chronicle Minimal 
 ====================
 
 Basic example how to setup a persisten Chronicle-Map 
