@@ -1,0 +1,40 @@
+=== Max OSX  === 
+1. Begin using 1000000 entries
+2. After create: 145 ms
+3. After put: 11 ms
+4. After close: 1250 ms
+
+
+Note: repeating the same test without deleting the chronicle file created previously, the close overhead disappear .   
+
+1. Begin using 1000000 entries
+2. After create: 224 ms
+3. After put: 12 ms
+4. After close: 2 ms
+
+
+=== Linux === 
+
+1. Begin using 1000000 entries 
+2. After create: 157 ms
+3. After put: 20 ms
+4. After close: 1 ms
+
+
+1. Begin using 5000000000 entries 
+2. After create: 657 ms
+3. After put: 22 ms
+4. After close: 3 ms
+
+
+=== Linux over NFS ===
+
+1. Begin using 1000000 entries
+2. After create: 787 ms
+3. After put: 21 ms
+4. After close: 5 ms
+
+1. Begin using 5000000000 entries
+2. After create: 2790 ms
+3. After put: 27 ms
+4. After close: 12 ms
